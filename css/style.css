@@ -20,10 +20,9 @@ body{
     font-family: var(--fw-style);
     color: var(--Desaturated-Red);
 }
+.framer{ margin-bottom: 1rem;}
 
-.hero{
-    padding: 1.6rem;
-}
+.hero{padding: 1.6rem;}
 
 .coming-soon{
     display: grid;
@@ -45,6 +44,10 @@ body{
     letter-spacing: 8px;
     text-transform: uppercase;
 }
-span{
-    color: black;
+span{color: black;}
+
+.email-box{
+    padding: 10px 20px;
+    border-radius: 1.5rem;
+    color: var(--Desaturated-Red) ;
 }
