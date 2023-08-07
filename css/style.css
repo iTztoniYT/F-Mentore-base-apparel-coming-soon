@@ -1,0 +1,46 @@
+@import url(cssRest.css);
+:root{
+    --fw-style: 'Josefin Sans', sans-serif;
+
+    /*  Primary */
+
+    --Desaturated-Red: hsl(0, 36%, 70%);
+    --Soft-Red: hsl(0, 93%, 68%);
+
+    /* Neutral */
+
+    --Dark-Grayish-Red: hsl(0, 6%, 24%);  
+}
+
+body{
+    font-family: var(--fw-style);
+    color: var(--Desaturated-Red);
+}
+
+.hero{
+    padding: 1.6rem;
+}
+
+.coming-soon{
+    display: grid;
+    gap: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1.9rem;
+}
+
+.title{
+
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.title__text-decoration{
+    font-size: 2.6rem;
+    line-height: 0.8;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+span{
+    color: black;
+}
